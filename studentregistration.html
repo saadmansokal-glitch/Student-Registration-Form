@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1><p>Green Valley College</p> </h1>
+<body>
+  
+    <fieldset>
+        <legend>Student Registration Form</legend>
+        <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <br>
+    <label for="email">Email:</label>
+    <br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <br>
+    <label for="pass">Password:</label>
+    <input type="password" id="pass" name="pass" placeholder="Enter your password" required>
+    <br>
+    <label>Age:</label>
+    <input type="number" name="age" min="5" max="100">
+    <br>
+    <label>Date of Birth:</label>
+    <input type="date" name="dob">
+    <br>
+    Gender:
+    <input type="radio"  name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" value="female">
+    <label for="female">Female</label>
+    <br>
+    <label>City</label>
+        <select name="city" id="city">
+            <option value="dhaka">Dhaka</option>
+            <option value="khulna">Khulna</option>
+            <option value="chittagong">Chittagong</option>
+            <option value="rajshahi">Rajshahi</option>
+            <option value="sylhet">Sylhet</option>
+        </select>
+
+    <br>
+    hobby:
+    <input type="radio"  name="hobby" value="cricket">
+    <label for="male">Cricket</label>
+    <input type="radio" name="hobby" value="reading">
+    <label for="female">Reading</label>
+    <input type="radio" name="hobby" value="music">
+    <label for="music">Music</label>
+    <br>
+    Write about yourself:
+    <br>
+    <textarea name="about" id="about" cols="30" rows="4" placeholder="Write about yourself"></textarea>
+    <br>
+    <br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</body>
+</html>
